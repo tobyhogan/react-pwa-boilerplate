@@ -1,3 +1,5 @@
+/*
+
 const fireTracking = (label) => {
   //Fire tracking here
   console.log(label);
@@ -36,3 +38,5 @@ export const pwaTrackingListeners = () => {
     fireTracking(trackText);
   });
 };
+
+*/
