@@ -9,12 +9,15 @@ const inter = Montserrat({
   subsets: ["latin"],
   variable: "--font-primary",
 });
-
+/*
 const isBrowser = typeof window !== "undefined";
 
+*/
+/*
 if (isBrowser) {
   pwaTrackingListeners();
 }
+*/
 
 export const metadata: Metadata = {
   title: "React PWA Boilerplate",
@@ -43,6 +46,8 @@ export default function RootLayout({
   );
 }
 
+/*
+
 if (isBrowser && "serviceWorker" in navigator) {
   window.addEventListener("load", () => {
     navigator.serviceWorker
@@ -55,3 +60,5 @@ if (isBrowser && "serviceWorker" in navigator) {
       });
   });
 }
+
+*/
